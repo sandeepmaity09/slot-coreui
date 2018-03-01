@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_HOST: "http://54.244.59.11:8080/games",
+  AUTH_USER: "greatgames",
+  AUTH_PASS: "123456"
 };
